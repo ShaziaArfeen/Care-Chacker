@@ -1,0 +1,488 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    width: 100vw;
+    /* width: 100vw; */
+    background-color: rgb(251, 231, 231);
+    cursor: url(./images/dnacursor.png),auto;
+    /* cursor: url(./images/dnamicroscope.png),auto; */
+
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.container-fluid{
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    animation: nav 3s linear infinite;
+
+}
+
+.nav-link:hover {
+    font-size: 22px;
+    text-shadow: 6px 6px 6px black;
+    transition: 1s;
+}
+
+
+.navbar-brand {
+    font-size: 20px;
+    /* padding-top: 500px; */
+    /* text-decoration-line: underline; */
+    text-decoration-line: wavy;
+    text-decoration-color: aliceblue;
+    /* padding-top:900px; */
+}
+
+@keyframes nav {
+    0% {
+        background: #020024;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+    }
+
+    50% {
+        background: gold;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(105, 133, 113) 35%, rgb(9, 9, 121) 100%);
+    }
+
+    100% {
+        background: #020024;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+    }
+
+
+}
+
+/* hero-section */
+
+
+.hero-section {
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.hero-section {
+     /* display: flex;
+    flex-wrap: wrap; */
+
+}
+
+.hero-text{
+    /* width: 50%; */
+}
+/* .hero-text h1,
+{
+    padding-left: 80px;
+    padding-top: 100px;
+    color: white;
+    font-size: 60px;
+    /* line-height: 30px; 
+
+} */
+
+.hero-text h4 {
+    /* color:white; */
+    font-size: 30px;
+
+}
+.col-md-6{
+    color: white;
+}
+
+/* .hero-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* width: 50%; 
+
+} */
+
+
+.container-hero-bottom{
+    text-align: center;
+    padding: 80px 0px;
+    color:darkred;
+    text-shadow:16px 16px 16px black;
+}
+.container-hero-bottom h1:hover{
+    font-size: 50px;
+    color: blue;
+    transition: 1s;
+}
+.main{
+    font-size: 3vw;
+}
+.pmain{
+    font-size: 1vw;
+}
+/* cards */
+.cards {
+
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+    margin: 40px 0px;
+    flex-wrap: wrap;
+
+}
+.cards a{
+    color: black;
+
+}
+.card-1 {
+    width: 320px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    background-color: aliceblue;
+transition: 1s;
+
+}
+
+.card-1 img {
+    width: 320px;
+    height: 192px;
+    border-radius: 10px;
+}
+.card-1 h1 {
+    font-size: 24px;
+    margin: 4px 20px;
+}
+
+.card-1 p {
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.card-2 {
+    width: 320px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    background-color: aliceblue;
+transition: 1s;
+    
+}
+
+.card-2 img {
+    width: 320px;
+    height: 192px;
+    border-radius: 10px;
+}
+
+.card-2 p {
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.card-2 h1 {
+    font-size: 24px;
+    margin: 4px 20px;
+}
+
+.card-3 {
+    width: 320px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    background-color: aliceblue;
+transition: 1s;
+
+
+}
+
+.card-3 img {
+    width: 320px;
+    height: 192px;
+    border-radius: 10px;
+}
+
+.card-3 h1 {
+    font-size: 24px;
+    margin: 4px 20px;
+}
+
+.card-3 p {
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+
+}
+.card-1:hover{
+box-shadow: 20px 20px 20px grey;
+transition: 1s;
+}
+.card-2:hover{
+box-shadow: 20px 20px 20px grey;
+transition: 1s;
+
+}
+.card-3:hover{
+box-shadow: 20px 20px 20px grey;
+transition: 1s;
+}
+
+footer{
+    cursor: url(./images/warning-cursor.png), auto;
+    /* height: 200px; */
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    transition: 1s;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+footer:hover{
+    background-color: rgb(130, 5, 5);
+    transition: 1s;
+}
+/* symptoms-section */
+
+.btn a{
+color: white;
+text-decoration: none;
+}
+
+/* diagno-content */
+
+
+     
+
+.diagno-content{
+    z-index: 1;
+    color: black;
+    position: relative;
+}
+
+.diagno-content h1{
+    font-size: 4vw;
+
+}
+
+.diagno-content p{
+    font-size: 2vw;
+
+}
+/* .diagno-content h1{
+font-size: 6vw;
+} */
+.diagno::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.6); 
+}
+
+.diagno{
+background-image: url(./images/germs.jpeg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* opacity: 0.3; */
+height: 100vh;
+    position: relative;
+
+
+
+}
+.btn{
+    background-color: blue;
+    border-radius: 8px;
+    border: 1px solid white;
+
+}
+.btn:hover{
+    box-shadow: 6px 6px 10px white;
+}
+/* symptom */
+.symptoms-container{
+    background-image: url(./images/symptoms.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card-custom{
+border-radius:15px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.08);
+}
+
+h2{
+color:#1a4d8f;
+}
+/* diagno.hero.bottom */
+
+.test-card{
+border-radius:15px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.test-card:hover{
+transform:translateY(-5px);
+}
+
+h2{
+color:#1a4d8f;
+}
+
+.btn-custom{
+background:#a6bfe0;
+border:none;
+}
+
+.btn-custom:hover{
+background:#a6bfe0;
+box-shadow: 6px 6px 10px #020024;
+}
+
+.head-1{
+    font-size: 70px;
+    margin-top: 70px;
+    text-transform: capitalize;
+}
+
+.contact-card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0px 0px 10px black;
+}
+
+h2{
+color:#1a4d8f;
+}
+
+.btn-custom{
+background:#4da6ff;
+border:none;
+font-weight:bold;
+}
+
+.btn-custom:hover{
+background:#1a4d8f;
+}
+
+.contact-body{
+    background:#f4f9ff;
+font-family:Arial;
+}
+
+
+.lab-card{
+border-radius:15px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.lab-card:hover{
+transform:translateY(-5px);
+}
+
+.price-badge{
+background:#4da6ff;
+color:white;
+padding:5px 10px;
+border-radius:8px;
+font-size:14px;
+}
+
+.h-2{
+color:#1a4d8f;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .main{
+    font-size: 5vw;
+    text-align: center;
+    margin-left: -60px;
+
+}
+.pmain{
+    font-size: 2vw;
+    text-align: center;
+    margin-left: -60px;
+
+}
+
+
+.img{
+width: 200px;
+/* display:none; */
+margin-left: -10px;
+}
+
+.hero{
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.container-hero-bottom{
+    font-size: 60px;
+}
+.container-hero-bottom h1:hover{
+    font-size: 10vw;
+    color: blue;
+    transition: 1s;
+}
+
+
+.card-1 {
+     width: 80vw;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    background-color: aliceblue;
+transition: 1s;
+
+}
+
+.card-1 img {
+     width: 80vw;
+    height: 192px;
+    border-radius: 10px;
+}
+
+.card-2 {
+     width: 80vw;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    background-color: aliceblue;
+transition: 1s;
+    
+}
+
+.card-2 img {
+     width: 80vw;
+    height: 192px;
+    border-radius: 10px;
+}
+
+
+
+.card-3 {
+    width: 80vw;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    background-color: aliceblue;
+transition: 1s;
+
+
+}
+
+.card-3 img {
+        width: 80vw;
+
+    height: 192px;
+    border-radius: 10px;
+}
+
+}

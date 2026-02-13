@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+  <div class="container-fluid text-bg-success">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <div class="logo-container">
+          <img height="40px" width="40px" src="./images/hand-holding-a-blood-test-tube-in-a-lab-setting-png.png"
+            alt="hand-holding-test-tube">
+          <span class="navbar-brand text-light" href="#">
+            CareCheck</span>
+        </div>
+
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link text-light" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./symptoms.html">Symptoms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./diagno.html">DiagnoTest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./labrates.html">Lab-rates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <h1 class="text-center head-1">symptoms</h1>
+
+
+
+<div class="symptoms-container">
+
+    <div class="container py-5">
+
+    <h2 class="text-center mb-4">Select Your Symptoms</h2>
+
+    <form>
+
+      <div class="row g-4">
+
+        <!-- Fever -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3">
+            <h5>Fever</h5>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">High Temperature</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Chills</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Sweating</label>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Flu -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3">
+            <h5>Flu</h5>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Body Ache</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Cough</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Fatigue</label>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Diabetes -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3">
+            <h5>Diabetes</h5>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Increased Thirst</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Frequent Urination</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Blurred Vision</label>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Heart Issues -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3">
+            <h5>Heart Issues</h5>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Chest Discomfort</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Shortness of Breath</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Dizziness</label>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Migraine -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3">
+            <h5>Migraine</h5>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Severe Headache</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Light Sensitivity</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Nausea</label>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Thyroid -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3">
+            <h5>Thyroid</h5>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Weight Change</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Fatigue</label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">Hair Loss</label>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Add more diseases similarly -->
+        <!-- You can duplicate above cards -->
+
+      </div>
+
+      <div class="text-center mt-4">
+        <button class="btn btn-primary px-5 "><a href="./diagno.html">See Suggested Tests</a></button>
+      </div>
+
+    </form>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+  <footer>
+
+    <div class="container text-center pt-5">
+
+      <h1>IMPORTANT ⚠️</h1>
+      <p>👉 This is NOT medical diagnosis <br>
+        👉 Consult doctor for confirmation.
+        This website provides general information <br>
+        It does not give medical advice or diagnosis.
+        Always consult a healthcare professional. <br>
+
+        © 2026 Health Checker</p>
+
+    </div>
+  </footer>
+  <a href="./index.html">Back to home</a>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
